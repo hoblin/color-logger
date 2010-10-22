@@ -1,4 +1,6 @@
-README
-Rakefile
-lib/color-logger.rb
+CHANGELOG.markdown
 Manifest
+README.markdown
+Rakefile
+color-logger.gemspec
+lib/color-logger.rb
