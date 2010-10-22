@@ -1,3 +1,7 @@
+0.0.3
+=====
+Fix error with private method calling
+
 0.0.2
 =====
 

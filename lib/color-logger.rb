@@ -40,8 +40,6 @@ class Object
     nil
   end
 
-  private
-
   def prepare_dump(tag=nil)
     @c_d_stack = []
     @c_d_stack << "\n\033[1;33;44m#{tag}\033[1;32;44m #{self.class}\033[0m\n"
