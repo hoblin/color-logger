@@ -1,3 +1,7 @@
+0.0.4
+=====
+Migrate to rails 3.1
+
 0.0.3
 =====
 Fix error with private method calling

@@ -6,7 +6,7 @@
 class Object
   # Show object with default Rails logger
   def cdebug(tag=nil)
-    RAILS_DEFAULT_LOGGER.info "\n\033[1;33;44m#{tag}\033[1;32;40m#{self.class} \033[0;30;47m#{self.inspect}\033[0m"
+    Rails.logger.info "\n\033[1;33;44m#{tag}\033[1;32;40m#{self.class} \033[0;30;47m#{self.inspect}\033[0m"
   end
 
   # Show object with console
@@ -29,7 +29,7 @@ class Object
 
   # Show object dump with default Rails logger
   def cdump(tag=nil)
-    RAILS_DEFAULT_LOGGER.info self.prepare_dump(tag).join("\n")
+    Rails.logger.info self.prepare_dump(tag).join("\n")
     @c_d_stack = []
   end
 
