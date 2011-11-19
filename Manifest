@@ -1,6 +1,7 @@
 CHANGELOG.markdown
+Gemfile
+Gemfile.lock
 Manifest
 README.markdown
 Rakefile
-color-logger.gemspec
 lib/color-logger.rb
