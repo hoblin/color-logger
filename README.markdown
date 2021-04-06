@@ -1,3 +1,8 @@
+Discontinued a long time ago
+============================
+Please use [awesome_print](https://github.com/awesome-print/awesome_print) instead
+
+
 Instalation
 ===========
 Include `gem 'color-logger'` to youre Gemfile and run `bundle`.
